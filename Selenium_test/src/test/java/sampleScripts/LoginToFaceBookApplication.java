@@ -15,6 +15,7 @@ public class LoginToFaceBookApplication extends BaseClass
 	@Test
 	public void loginToFaceBookApp()
 	{
+		// welcome to facebook
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
