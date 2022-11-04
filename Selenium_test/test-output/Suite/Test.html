@@ -1,0 +1,212 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Nov 01 15:13:15 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>120 seconds (120128 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='sampleScripts.TestPriotity.snake()'><b>snake</b><br>Test class: sampleScripts.TestPriotity</td>
+<td></td>
+<td>0</td>
+<td>sampleScripts.TestPriotity@4145bad8</td></tr>
+<tr>
+<td title='sampleScripts.TestPriotity.cat()'><b>cat</b><br>Test class: sampleScripts.TestPriotity</td>
+<td></td>
+<td>0</td>
+<td>sampleScripts.TestPriotity@4145bad8</td></tr>
+<tr>
+<td title='sampleScripts.TestPriotity.snake()'><b>snake</b><br>Test class: sampleScripts.TestPriotity</td>
+<td></td>
+<td>0</td>
+<td>sampleScripts.TestPriotity@4145bad8</td></tr>
+<tr>
+<td title='sampleScripts.TestNGExample2.instaramLogin()'><b>instaramLogin</b><br>Test class: sampleScripts.TestNGExample2<br/>
+<a href="#Output-1091233196" onClick='toggleBox("Output-1091233196", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1091233196" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1091233196">
+Instagram Login<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>sampleScripts.TestNGExample2@71ba6d4e</td></tr>
+<tr>
+<td title='sampleScripts.TestPriotity.dog()'><b>dog</b><br>Test class: sampleScripts.TestPriotity</td>
+<td></td>
+<td>0</td>
+<td>sampleScripts.TestPriotity@4145bad8</td></tr>
+<tr>
+<td title='sampleScripts.TestPriotity.dog()'><b>dog</b><br>Test class: sampleScripts.TestPriotity</td>
+<td></td>
+<td>0</td>
+<td>sampleScripts.TestPriotity@4145bad8</td></tr>
+<tr>
+<td title='sampleScripts.Testing.test2()'><b>test2</b><br>Test class: sampleScripts.Testing</td>
+<td></td>
+<td>0</td>
+<td>sampleScripts.Testing@63376bed</td></tr>
+<tr>
+<td title='sampleScripts.Testing.test1()'><b>test1</b><br>Test class: sampleScripts.Testing</td>
+<td></td>
+<td>0</td>
+<td>sampleScripts.Testing@63376bed</td></tr>
+<tr>
+<td title='sampleScripts.TestNGExample2.actiTimeLogin()'><b>actiTimeLogin</b><br>Test class: sampleScripts.TestNGExample2<br/>
+<a href="#Output-865430810" onClick='toggleBox("Output-865430810", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-865430810" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-865430810">
+actitime Login<br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>sampleScripts.TestNGExample2@71ba6d4e</td></tr>
+<tr>
+<td title='sampleScripts.TestNGExample.launchChrome()'><b>launchChrome</b><br>Test class: sampleScripts.TestNGExample<br/>
+<a href="#Output-1240230559" onClick='toggleBox("Output-1240230559", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1240230559" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1240230559">
+chrome<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>sampleScripts.TestNGExample@55a147cc</td></tr>
+<tr>
+<td title='sampleScripts.TestExampleAnnotations.testScript()'><b>testScript</b><br>Test class: sampleScripts.TestExampleAnnotations<br/>
+<a href="#Output-90567568" onClick='toggleBox("Output-90567568", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-90567568" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-90567568">
+executing the test scripts<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>sampleScripts.TestExampleAnnotations@6574a52c</td></tr>
+<tr>
+<td title='sampleScripts.TestPriotity.cat()'><b>cat</b><br>Test class: sampleScripts.TestPriotity</td>
+<td></td>
+<td>0</td>
+<td>sampleScripts.TestPriotity@4145bad8</td></tr>
+<tr>
+<td title='sampleScripts.TestNGExample.launchFirefox()'><b>launchFirefox</b><br>Test class: sampleScripts.TestNGExample<br/>
+<a href="#Output-1859956068" onClick='toggleBox("Output-1859956068", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1859956068" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1859956068">
+firefox<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>sampleScripts.TestNGExample@55a147cc</td></tr>
+<tr>
+<td title='sampleScripts.TestNGExample.launchFlipKart()'><b>launchFlipKart</b><br>Test class: sampleScripts.TestNGExample<br/>
+<a href="#Output-951629504" onClick='toggleBox("Output-951629504", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-951629504" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-951629504">
+edge<br/>
+</div>
+</td>
+<td></td>
+<td>47</td>
+<td>sampleScripts.TestNGExample@55a147cc</td></tr>
+<tr>
+<td title='sampleScripts.TestPriotity.cat()'><b>cat</b><br>Test class: sampleScripts.TestPriotity</td>
+<td></td>
+<td>0</td>
+<td>sampleScripts.TestPriotity@4145bad8</td></tr>
+<tr>
+<td title='sampleScripts.Testing.test3()'><b>test3</b><br>Test class: sampleScripts.Testing</td>
+<td></td>
+<td>0</td>
+<td>sampleScripts.Testing@63376bed</td></tr>
+<tr>
+<td title='sampleScripts.TestPriotity.dog()'><b>dog</b><br>Test class: sampleScripts.TestPriotity</td>
+<td></td>
+<td>0</td>
+<td>sampleScripts.TestPriotity@4145bad8</td></tr>
+<tr>
+<td title='sampleScripts.TestPriotity.dog()'><b>dog</b><br>Test class: sampleScripts.TestPriotity</td>
+<td></td>
+<td>0</td>
+<td>sampleScripts.TestPriotity@4145bad8</td></tr>
+</table><p>
+</body>
+</html>
