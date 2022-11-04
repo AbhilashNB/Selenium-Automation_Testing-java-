@@ -41,7 +41,7 @@ public class LoginToFaceBookApplication extends BaseClass
 		//it will stop the execution // this will not stop the execution
 		// it will halt the remaining test cases
 		
-		//end of the test case
+		//end of the test case.
 		
 		
 	}
